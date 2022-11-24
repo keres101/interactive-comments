@@ -1,0 +1,54 @@
+.button {
+  padding: 0.6em 1em;
+  font-weight: 700;
+  border-radius: 0.4em;
+  cursor: pointer;
+  color: hsl(212, 24%, 26%);
+  font-size: inherit;
+}
+.button_purple {
+  background-color: var(--moderate-blue);
+  color: var(--white);
+}
+.button_purple:hover {
+  background-color: var(--light-grayish-blue);
+}
+
+.button_red {
+  background-color: var(--soft-red);
+  color: var(--white);
+}
+.button_red:hover {
+  background-color: var(--pale-red);
+}
+
+.button_gray {
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
+.button_gray:hover {
+  background-color: var(--grayish-blue);
+}
+
+.comment-textarea {
+  /* border: 1px solid hsl(211, 10%, 45%); */
+  outline: 1px solid hsl(211, 10%, 45%);
+  cursor: pointer;
+  border-radius: var(--radius-box-message);
+  display: block;
+  width: 100%;
+  padding: 1.2em;
+  font-size: inherit;
+  font-family: inherit;
+  height: 100px;
+  color: hsl(212, 24%, 26%);
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.1em 0.4em;
+  font-size: 0.9em;
+  font-weight: 500;
+  background-color: var(--moderate-blue);
+  color: var(--white);
+}

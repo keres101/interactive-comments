@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Rubik;
+  src: url('/src/assets/fonts/Rubik-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url('/src/assets/fonts/Rubik-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Rubik;
+  src: url('/src/assets/fonts/Rubik-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Rubik;
+}
+
+.container {
+  background-color: hsl(228, 33%, 97%);
+}
+
+button,
+input,
+textarea {
+  outline: none;
+  border: 0;
+}
+textarea {
+  resize: none;
+}
